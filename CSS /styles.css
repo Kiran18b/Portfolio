@@ -8,8 +8,8 @@
 /* Body Styling */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #1f3f95; /* Updated to a blue background */
+    color: #fff; /* Change text color to white for better contrast */
     line-height: 1.6;
     display: flex;
     justify-content: center;
@@ -21,8 +21,8 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #1f3f95;
-    color: #fff;
+    background-color: #333;
+    color: #ffd700;
     width: 100%;
     padding: 20px 0;
     text-align: center;
@@ -52,7 +52,7 @@ header a:hover {
 
 /* Main Section Styling */
 section {
-    background-color: #fff;
+    background-color: #333; /* Darker background for sections */
     width: 100%;
     max-width: 800px;
     padding: 20px;
@@ -62,7 +62,7 @@ section {
 }
 
 section h2 {
-    color: #1f3f95;
+    color: #ffd700;
     margin-bottom: 15px;
     font-size: 1.8em;
     border-bottom: 2px solid #ffd700;
@@ -74,10 +74,6 @@ section h2 {
     margin-bottom: 10px;
 }
 
-#education strong {
-    color: #1f3f95;
-}
-
 /* Skills Section Styling */
 #skills ul {
     list-style-type: none;
@@ -86,8 +82,8 @@ section h2 {
 }
 
 #skills li {
-    background-color: #e9ecef;
-    color: #1f3f95;
+    background-color: #444;
+    color: #ffd700;
     padding: 10px;
     margin-bottom: 8px;
     border-radius: 5px;
@@ -105,10 +101,6 @@ section h2 {
     margin-bottom: 10px;
 }
 
-#experience strong {
-    color: #1f3f95;
-}
-
 /* Projects Section Styling */
 #projects ul {
     list-style-type: none;
@@ -120,7 +112,7 @@ section h2 {
 }
 
 #projects a {
-    color: #1f3f95;
+    color: #ffd700;
     text-decoration: none;
     font-weight: bold;
 }
